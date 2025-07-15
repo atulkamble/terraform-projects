@@ -4,6 +4,12 @@ This guide walks you through installing and configuring Terraform on an EC2 inst
 
 ---
 
+```
+sudo yum install git -y 
+git clone https://github.com/atulkamble/ec2-terraform-project.git
+cd ec2-terraform-project
+```
+
 ## 📌 Prerequisites
 
 * AWS account with **Admin** access.
