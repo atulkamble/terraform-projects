@@ -177,4 +177,13 @@ You now have a fully functional Terraform installation on an EC2 instance, capab
 * Update the `ami` ID in `main.tf` if a newer Amazon Linux 2 AMI is available in your region.
 
 ---
+## 👨‍💻 Author
+
+**Atul Kamble**
+
+- 💼 [LinkedIn](https://www.linkedin.com/in/atuljkamble)
+- 🐙 [GitHub](https://github.com/atulkamble)
+- 🐦 [X](https://x.com/Atul_Kamble)
+- 📷 [Instagram](https://www.instagram.com/atuljkamble)
+- 🌐 [Website](https://www.atulkamble.in)
 
