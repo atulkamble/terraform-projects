@@ -3,7 +3,16 @@
 This guide walks you through installing and configuring Terraform on an EC2 instance, and provisioning a simple AWS EC2 instance using Terraform.
 
 ---
+# install terraform on windows 
+```
+powershell run as admin 
 
+Set-ExecutionPolicy Bypass -Scope Process -Force; [System.Net.ServicePointManager]::SecurityProtocol = [System.Net.ServicePointManager]::SecurityProtocol -bor 3072; iex ((New-Object System.Net.WebClient).DownloadString('https://community.chocolatey.org/install.ps1'))
+
+choco install terraform 
+
+terraform -v
+```
 ```
 sudo yum install git -y 
 git clone https://github.com/atulkamble/ec2-terraform-project.git
