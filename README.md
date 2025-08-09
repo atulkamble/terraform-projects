@@ -2,6 +2,10 @@
 
 ![Terraform-EC2](https://github.com/atulkamble/ec2-terraform-project/blob/main/terraform-ec2.png)
 
+
+![Terraform-Configuration](https://github.com/atulkamble/ec2-terraform-project/blob/main/terraform-configuration.png)
+
+
 ---
 
 
