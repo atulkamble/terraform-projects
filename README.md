@@ -1,3 +1,12 @@
+## 📸 Screenshot
+
+![Grafana-Prometheus](https://github.com/atulkamble/ec2-grafana-prometheus-project/blob/main/Grafana-Prometheus.png)
+
+---
+
+
+
+
 ## 📖 Terraform Installation & Configuration on AWS EC2
 
 This guide walks you through installing and configuring Terraform on an EC2 instance, and provisioning a simple AWS EC2 instance using Terraform.
