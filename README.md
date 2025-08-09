@@ -1,6 +1,6 @@
 ## 📸 Screenshot
 
-![Terraform-EC2]([https://github.com/atulkamble/ec2-grafana-prometheus-project/blob/main/Grafana-Prometheus.png](https://github.com/atulkamble/ec2-terraform-project/blob/main/terraform-ec2.png))
+![Terraform-EC2](https://github.com/atulkamble/ec2-terraform-project/blob/main/terraform-ec2.png)
 
 ---
 
