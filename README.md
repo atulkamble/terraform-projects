@@ -28,7 +28,7 @@ terraform -v
 ```
 ```
 sudo yum install git -y 
-git clone https://github.com/atulkamble/ec2-terraform-project.git
+git clone https://github.com/atulkamble/terraform-projects.git
 cd ec2-terraform-project
 terraform init
 terraform plan
@@ -130,7 +130,7 @@ terraform {
   required_providers {
     aws = {
       source  = "hashicorp/aws"
-      version = "6.3.0"
+      version = "6.14.0"
     }
   }
 }
@@ -140,11 +140,12 @@ provider "aws" {
 }
 
 resource "aws_instance" "webserver" {
-  ami           = "ami-0150ccaf51ab55a51"
+  ami           = "ami-08982f1c5bf93d976"
   instance_type = "t3.micro"
+  count = "1"
 
   tags = {
-    Name = "one"
+    Name = "linux"
   }
 }
 ```
