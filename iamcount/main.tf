@@ -3,7 +3,7 @@ provider "aws" {
 }
 
 resource "aws_iam_user" "example" {
-  count = 3  
+  count = 3
 
   name = "user-${count.index + 1}"
 }

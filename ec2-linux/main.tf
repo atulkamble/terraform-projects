@@ -14,7 +14,7 @@ provider "aws" {
 resource "aws_instance" "webserver" {
   ami           = "ami-08982f1c5bf93d976"
   instance_type = "t3.micro"
-  count = "1"
+  count         = "1"
 
   tags = {
     Name = "linux"
