@@ -1,10 +1,8 @@
 terraform {
-  required_version = ">= 1.5.0"
-
   required_providers {
     aws = {
-      source  = "hashicorp/aws"
-      version = "~> 5.0"
+      source = "hashicorp/aws"
+      version = "6.14.1"
     }
   }
 }
@@ -22,8 +20,6 @@ locals {
 resource "aws_s3_bucket" "this" {
   bucket        = var.bucket_name
   force_destroy = var.force_destroy
-
-  tags = locals.tags
 }
 
 resource "aws_s3_bucket_versioning" "this" {
